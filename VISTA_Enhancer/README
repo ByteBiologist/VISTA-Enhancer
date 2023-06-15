@@ -1,2 +1,33 @@
 VISTA Enhancer data production
 
+# Vista Enhancer
+    
+    The VISTA Enhancer Browser is a central resource for experimentally validated human and mouse noncoding fragments with gene enhancer activity as assessed in transgenic mice. Most of these noncoding elements were selected for testing based on their extreme conservation in other vertebrates or epigenomic evidence (ChIP-Seq) of putative enhancer marks. The results of this in vivo enhancer screen are provided through this publicly available website.
+
+## URL : https://enhancer.lbl.gov/ 
+
+### Data download - 06/12/2023
+
+#### Query selection
+
+Browse the database in the 'Advanced search' https://enhancer.lbl.gov/cgi-bin/imagedb3.pl?form=ext_search&show=1
+
+1) Expression pattern: All
+2) Only 'Positive' enhancers
+3) Only 'Humans'
+
+Query results in 1002 elements with a data download link
+
+https://enhancer.lbl.gov/cgi-bin/imagedb3.pl?action=search;page=1;search.org=Human;search.status=Positives;search.gene=;form=ext_search;search.result=yes;page_size=100;show=1;search.sequence=1
+
+Output is a preformatted text provided in HTML as a 'pre' element
+
+
+
+## Citing the Enhancer Browser
+
+The following publication should be referenced for any analysis in which data from the VISTA Enhancer Browser was used:
+
+Visel A, Minovitsky S, Dubchak I, Pennacchio LA (2007). VISTA Enhancer Browser-a database of tissue-specific human enhancers. Nucleic Acids Res 35:D88-92
+
+When referring to specific datasets within the Enhancer Browser, please report the respective dataset ID, e.g. hs112 or mm23.
